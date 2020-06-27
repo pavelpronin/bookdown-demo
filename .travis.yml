@@ -2,6 +2,10 @@ language: r
 cache: packages
 pandoc_version: 1.19.2.1
 
+env:
+  global:
+    - secure: 06e2f75d9d06849ba8021e1c43b089e078c695f9
+
 before_script:
   - chmod +x ./_build.sh
   - chmod +x ./_deploy.sh
